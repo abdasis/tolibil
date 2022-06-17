@@ -65,26 +65,26 @@
                 <div class="card-body">
                     <ul class="list-unstyled">
                         <li class="border-bottom py-2">
-                            <a href="">
-                                <i class="ri-book-mark-line"></i>
+                            <a href="" class="d-flex align-items-start text-dark">
+                                <i class="ri-book-mark-line me-1"></i>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et hic perferendis. Fugit, magnam optio! A delectus doloremque harum maxime molestias nemo quasi repellat sapiente, sed sunt suscipit unde vel?
                             </a>
                         </li>
                         <li class="border-bottom py-2">
-                            <a href="">
-                                <i class="ri-book-mark-line"></i>
+                            <a href="" class="d-flex align-items-start text-dark">
+                                <i class="ri-book-mark-line me-1"></i>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et hic perferendis. Fugit, magnam optio! A delectus doloremque harum maxime molestias nemo quasi repellat sapiente, sed sunt suscipit unde vel?
                             </a>
                         </li>
                         <li class="border-bottom py-2">
-                            <a href="">
-                                <i class="ri-book-mark-line"></i>
+                            <a href="" class="d-flex align-items-start text-dark">
+                                <i class="ri-book-mark-line me-1"></i>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et hic perferendis. Fugit, magnam optio! A delectus doloremque harum maxime molestias nemo quasi repellat sapiente, sed sunt suscipit unde vel?
                             </a>
                         </li>
                         <li class="border-bottom py-2">
-                            <a href="">
-                                <i class="ri-book-mark-line"></i>
+                            <a href="" class="d-flex align-items-start text-dark">
+                                <i class="ri-book-mark-line me-1"></i>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et hic perferendis. Fugit, magnam optio! A delectus doloremque harum maxime molestias nemo quasi repellat sapiente, sed sunt suscipit unde vel?
                             </a>
                         </li>
@@ -98,9 +98,11 @@
             <i class="ri-delete-bin-2-line"></i>
             Hapus
         </button>
-        <button class="btn btn-outline-secondary btn-border btn-sm btn-block mt-3 mb-3">
-            <i class="ri-edit-2-fill"></i>
-            Sunting
-        </button>
+        <a href="{{route('mata-kuliah.edit', $schedule)}}">
+            <button class="btn btn-outline-secondary btn-border btn-sm btn-block mt-3 mb-3">
+                <i class="ri-edit-2-fill"></i>
+                Sunting
+            </button>
+        </a>
     </div>
 </div>

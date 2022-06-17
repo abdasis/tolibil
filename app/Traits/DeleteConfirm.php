@@ -11,7 +11,7 @@ trait DeleteConfirm
 
     public $model_id;
 
-    public function delete($id, $btn_confirm = 'hapus', $btn_cancel = 'batal')
+    public function delete($id, $btn_confirm = 'delete', $btn_cancel = 'cancel')
     {
         $this->confirm('Yakin hapus data ini?', [
             'toast' => false,
