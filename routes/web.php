@@ -36,6 +36,13 @@ Route::middleware([
         Route::get('/{mataKuliah}/edit', Edit::class)->name('mata-kuliah.edit');
         Route::get('/{mataKuliah}/detail', Show::class)->name('mata-kuliah.show');
     });
+
+    Route::group(['prefix' => 'notes'], function (){
+        Route::get('/', \App\Http\Livewire\Notes\Index::class)->name('notes.index');
+        Route::get('/create', \App\Http\Livewire\Notes\Create::class)->name('notes.create');
+        Route::get('{notes}/edit', \App\Http\Livewire\Notes\Edit::class)->name('notes.edit');
+        Route::get('{notes}/detail', \App\Http\Livewire\Notes\Show::class)->name('notes.show');
+    });
 });
 
 Route::get('auth/{provider}', [SocialiteController::class, 'redirectToProvider'])->name('auth.socialite');

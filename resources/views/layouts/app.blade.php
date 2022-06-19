@@ -24,7 +24,8 @@
     <!-- custom Css-->
     <link href="{{asset('assets/css/custom.min.css')}}" rel="stylesheet" type="text/css"/>
 
-    <script src="https://cdn.tiny.cloud/1/3kubek8r1p1mz4kvit7hc1z2mxd8wgg551cbeu82qkmenprf/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+    @stack('styles')
 
 </head>
 
@@ -86,10 +87,14 @@
 
     {{--sweet alert--}}
 
+    <script src="https://cdn.tiny.cloud/1/3kubek8r1p1mz4kvit7hc1z2mxd8wgg551cbeu82qkmenprf/tinymce/6/tinymce.min.js"
+            referrerpolicy="origin"></script>
     <script src="{{asset('js/app.js')}}"></script>
     @livewireScripts
     <script src="{{asset('assets/libs/sweetalert2/sweetalert2.min.js')}}"></script>
     <script src="{{asset('assets/js/pages/sweetalerts.init.js')}}"></script>
     <x-livewire-alert::scripts/>
+    @stack('scripts')
+
 </body>
 </html>
