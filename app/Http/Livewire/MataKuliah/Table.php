@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Rappasoft\LaravelLivewireTables\DataTableComponent;
 use Rappasoft\LaravelLivewireTables\Views\Column;
 use App\Models\Schedule;
+use Rappasoft\LaravelLivewireTables\Views\Filters\DateFilter;
+use Rappasoft\LaravelLivewireTables\Views\Filters\SelectFilter;
 
 class Table extends DataTableComponent
 {
@@ -14,6 +16,17 @@ class Table extends DataTableComponent
         $this->setPrimaryKey('id')->setTableRowUrl(function($schedule) {
             return route('mata-kuliah.show', $schedule->id);
         });
+    }
+    public function filters(): array
+    {
+        return [
+            SelectFilter::make('Active')
+                ->options([
+                    '' => 'All',
+                    'yes' => 'Yes',
+                    'no' => 'No',
+                ]),
+        ];
     }
 
     public function columns(): array

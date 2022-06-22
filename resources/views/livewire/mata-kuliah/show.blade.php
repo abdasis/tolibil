@@ -65,26 +65,26 @@
                 <div class="card-body">
                     <ul class="list-unstyled">
                         <li class="border-bottom py-2">
-                            <a href="">
-                                <i class="ri-book-mark-line"></i>
+                            <a href="" class="d-flex align-items-start text-dark">
+                                <i class="ri-book-mark-line me-1"></i>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et hic perferendis. Fugit, magnam optio! A delectus doloremque harum maxime molestias nemo quasi repellat sapiente, sed sunt suscipit unde vel?
                             </a>
                         </li>
                         <li class="border-bottom py-2">
-                            <a href="">
-                                <i class="ri-book-mark-line"></i>
+                            <a href="" class="d-flex align-items-start text-dark">
+                                <i class="ri-book-mark-line me-1"></i>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et hic perferendis. Fugit, magnam optio! A delectus doloremque harum maxime molestias nemo quasi repellat sapiente, sed sunt suscipit unde vel?
                             </a>
                         </li>
                         <li class="border-bottom py-2">
-                            <a href="">
-                                <i class="ri-book-mark-line"></i>
+                            <a href="" class="d-flex align-items-start text-dark">
+                                <i class="ri-book-mark-line me-1"></i>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et hic perferendis. Fugit, magnam optio! A delectus doloremque harum maxime molestias nemo quasi repellat sapiente, sed sunt suscipit unde vel?
                             </a>
                         </li>
                         <li class="border-bottom py-2">
-                            <a href="">
-                                <i class="ri-book-mark-line"></i>
+                            <a href="" class="d-flex align-items-start text-dark">
+                                <i class="ri-book-mark-line me-1"></i>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et hic perferendis. Fugit, magnam optio! A delectus doloremque harum maxime molestias nemo quasi repellat sapiente, sed sunt suscipit unde vel?
                             </a>
                         </li>

@@ -64,7 +64,7 @@
                     </div>
                 </li> <!-- end Dashboard Menu -->
 
-                <li class="menu-title"><i class="ri-more-fill"></i> <span data-key="t-pages">Kelola Akademik</span></li>
+                <li class="menu-title rounded-pill bg-light mx-3"><i class="ri-more-fill"></i> <span data-key="t-pages">Kelola Akademik</span></li>
 
 
                 <li class="nav-item">
@@ -87,7 +87,7 @@
                 </li> <!-- end Dashboard Menu -->
 
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="widgets.html">
+                    <a class="nav-link menu-link" href="{{route('notes.index')}}">
                         <i class="ri-book-2-line"></i> <span data-key="t-widgets">Notebooks</span>
                     </a>
                 </li>
@@ -98,7 +98,7 @@
                     </a>
                 </li>
 
-                <li class="menu-title"><i class="ri-more-fill"></i> <span data-key="t-pages">Management Tugas</span></li>
+                <li class="menu-title rounded-pill bg-light mx-3"><i class="ri-more-fill"></i> <span data-key="t-pages">Management Tugas</span></li>
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="widgets.html">
                         <i class="ri-todo-line"></i> <span data-key="t-widgets">Tugas</span>
@@ -109,7 +109,7 @@
                         <i class="ri-calendar-event-line"></i> <span data-key="t-widgets">Kalender</span>
                     </a>
                 </li>
-                <li class="menu-title"><i class="ri-more-fill"></i> <span data-key="t-pages">Belajar Produktif</span></li>
+                <li class="menu-title rounded-pill bg-light mx-3"><i class="ri-more-fill"></i> <span data-key="t-pages">Belajar Produktif</span></li>
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="widgets.html">
                         <i class="ri-timer-2-line"></i> <span data-key="t-widgets">Pomodoro Timer</span>

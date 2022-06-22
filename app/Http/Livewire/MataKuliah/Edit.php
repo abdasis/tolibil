@@ -33,7 +33,7 @@ class Edit extends Component
     public function rules()
     {
         return [
-            'name' => 'required|min:3|unique:schedules,name,'.$this->schedule_id,
+            'name' => 'required|min:3|unique:schedules,name,' . $this->schedule_id,
             'lecturer' => 'required|min:3',
             'total_hours' => 'required|min:1',
             'day' => 'required|min:1',
@@ -67,7 +67,6 @@ class Edit extends Component
             ]);
 
             $this->reset();
-
         } catch (\Exception $e) {
             $this->alert($e->getMessage(), 'danger');
         }

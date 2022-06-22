@@ -1,12 +1,6 @@
 <div>
     {{-- If you look to others for fulfillment, you will never truly be fulfilled. --}}
-    <div class="card">
-        <div class="card-header">
-            <h4 class="d-flex align-middle">
-                <i class=" ri-pages-line me-1"></i>
-                Tambah Mata Kuliah
-            </h4>
-        </div>
+    <div class="card py-3">
         <div class="card-body">
             <div class="row h-100">
                 <div class="col-md-7">
@@ -86,7 +80,10 @@
                 <div class="col">
                     <div class="card bg-soft-warning shadow-none border-dashed m-4">
                         <div class="card-body">
-                            <h5>Panduan</h5>
+                            <h5 class="d-flex align-items-center">
+                                <i class="ri-chat-quote-line me-1"></i>
+                                Panduan
+                            </h5>
                             <ul>
                                 <li>Kamu bisa menambahkan jadwal pelajaran</li>
                                 <li>Kamu bisa mendapatkan notifikasi ke WhatsApp sesuai dengan jam pelajaran</li>
