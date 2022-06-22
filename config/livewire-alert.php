@@ -11,7 +11,7 @@ return [
         'toast' => false,
         'text' => null,
         'cancelButtonText' => 'Batal',
-        'confirmButtonText' => 'Ya, Yakin',
+        'confirmButtonText' => 'Ya',
         'showCancelButton' => false,
         'showConfirmButton' => true,
         'customClass' => [
@@ -28,9 +28,9 @@ return [
             'inputLabel' => '',
             'validationMessage' => '',
             'actions' => '',
-            'confirmButton' => 'btn btn-primary btn-sm w-lg',
-            'denyButton' => '',
-            'cancelButton' => '',
+            'confirmButton' => 'btn btn-primary',
+            'denyButton' => 'btn btn-danger',
+            'cancelButton' => 'btn btn-danger',
             'loader' => '',
             'footer' => ''
         ],
@@ -43,7 +43,7 @@ return [
         'timer' => null,
         'showConfirmButton' => true,
         'showCancelButton' => true,
-        'cancelButtonText' => 'No',
+        'cancelButtonText' => 'Tidak',
         'customClass' => [
             'container' => '',
             'popup' => '',
@@ -58,9 +58,9 @@ return [
             'inputLabel' => '',
             'validationMessage' => '',
             'actions' => '',
-            'confirmButton' => 'btn btn-primary w-lg',
-            'denyButton' => '',
-            'cancelButton' => 'btn btn-secondary w-lg',
+            'confirmButton' => 'btn btn-primary',
+            'denyButton' => 'btn btn-danger',
+            'cancelButton' => 'btn btn-danger',
             'loader' => '',
             'footer' => ''
         ],

@@ -33,7 +33,7 @@ Route::middleware([
     Route::group(['prefix' => 'mata-kuliah'], function () {
         Route::get('/', Index::class)->name('mata-kuliah.index');
         Route::get('/create', Create::class)->name('mata-kuliah.create');
-        Route::get('/{mataKuliah}/edit', Edit::class)->name('mata-kuliah.edit');
+        Route::get('/{schedule}/edit', Edit::class)->name('mata-kuliah.edit');
         Route::get('/{mataKuliah}/detail', Show::class)->name('mata-kuliah.show');
     });
 });

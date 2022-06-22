@@ -98,9 +98,11 @@
             <i class="ri-delete-bin-2-line"></i>
             Hapus
         </button>
-        <button class="btn btn-outline-secondary btn-border btn-sm btn-block mt-3 mb-3">
-            <i class="ri-edit-2-fill"></i>
-            Sunting
-        </button>
+        <a href="{{route('mata-kuliah.edit', $schedule)}}">
+            <button class="btn btn-outline-secondary btn-border btn-sm btn-block mt-3 mb-3">
+                <i class="ri-edit-2-fill"></i>
+                Sunting
+            </button>
+        </a>
     </div>
 </div>
